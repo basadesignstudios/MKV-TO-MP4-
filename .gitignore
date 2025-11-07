@@ -1,0 +1,10 @@
+# Ignore binaries and build folders
+ffmpeg_bin/
+!ffmpeg_bin/README.txt
+*.exe
+# Ignore icon binaries; use tools/generate_app_icon.py to recreate locally when needed.
+*.ico
+build/
+dist/
+__pycache__/
+*.spec
